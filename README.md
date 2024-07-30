@@ -25,7 +25,7 @@ If you have existing Keynotes lyrics presentations, copy them to `~/Desktop/slid
 Double click and run the AppleScript `parser.scpt`, and it should write all the lyrics to `out.txt` located on `Desktop`. 
 Check the content of this file manually, each song should start with `#Title` followed by its title, and `#Page` for each Keynote slide. 
 
-When you are done, `cd` to the folder and run
+When you are done, put the `out.txt` file into the project folder and run
 ```
 python database-init.py
 ```
@@ -35,6 +35,6 @@ and your lyrics should appear when you launch the program.
 ```
 python GUI.py
 ```
-Use the buttons below the middle section to permenantely modify the songs in the datase. 
-Search and double click on the results or select the song then press the `→` button to add them to the queue. 
-After choosing the filename, click on `Generate Keynote` and the Keynote presentation will be generated and saved on `Desktop`!
+Use the three buttons below the middle section to permenantely modify the songs in the database. 
+Search and double click on the results, or select the song then press the `→` button to add them to the queue. 
+After choosing the filename, click on `Generate Keynote`, and the Keynote presentation will be generated and saved on `Desktop`!
